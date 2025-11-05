@@ -1,0 +1,58 @@
+{
+  "name": "growper-lp-video-wpp-v1",
+  "version": "0.1.0",
+  "description": "Landing Page com vídeo e CTA WhatsApp - Growper",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "test": "playwright test",
+    "postbuild": "next-sitemap",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "financiamento",
+    "imobiliário",
+    "calculadora",
+    "growper"
+  ],
+  "author": "Growper",
+  "license": "MIT",
+  "packageManager": "pnpm@10.20.0",
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vercel/analytics": "^1.5.0",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.552.0",
+    "next": "^16.0.1",
+    "next-seo": "^7.0.1",
+    "next-sitemap": "^4.2.3",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.66.0",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@playwright/test": "^1.56.1",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
+    "prettier": "^3.6.2"
+  }
+}
